@@ -9,9 +9,8 @@ function App() {
       <h1> Austin learning React Interview Questions</h1>
       <h2>Start writting code Boy!</h2>
       <p> { counter } </p>
-      <button onclick = { () => {
-        setCounter(counter + 1);
-      } } > increase_Counter </button>
+      <button onClick = { () => setCounter(counter + 1)
+       } > increaseCounter </button>
     </div>
   );
 }
